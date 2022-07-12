@@ -27,9 +27,8 @@ public class BMITests {
         //add check - 'Starvation' value exists
 
         String resultField = driver.findElement(By.className("content")).getAttribute("value");
-        Assert.assertEquals(resultField, "Your category is Starvation");
-
         driver.quit();
+        Assert.assertEquals(resultField, "Your category is Starvation");
     }
 
     @Test
@@ -49,6 +48,7 @@ public class BMITests {
 
         //add check - 'Underweight' value exists
         String resultField = driver.findElement(By.className("content")).getAttribute("value");
+        driver.quit();
         Assert.assertEquals(resultField, "Your category is Underweight");
     }
 
@@ -69,6 +69,7 @@ public class BMITests {
 
         //add check - 'Normal' value exists
         String resultField = driver.findElement(By.className("content")).getAttribute("value");
+        driver.quit();
         Assert.assertEquals(resultField, "Your category is Normal");
     }
 
@@ -89,6 +90,7 @@ public class BMITests {
 
         //add check - 'Overweight' value exists
         String resultField = driver.findElement(By.className("content")).getAttribute("value");
+        driver.quit();
         Assert.assertEquals(resultField, "Your category is Overweight");
     }
 
@@ -109,6 +111,7 @@ public class BMITests {
 
         //add check - 'Obese' value exists
         String resultField = driver.findElement(By.className("content")).getAttribute("value");
+        driver.quit();
         Assert.assertEquals(resultField, "Your category is Obese");
     }
 }
