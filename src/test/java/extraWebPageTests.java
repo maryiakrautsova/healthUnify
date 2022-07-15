@@ -68,10 +68,9 @@ public class extraWebPageTests {
 
         driver.findElement(By.cssSelector("body")).sendKeys(Keys.CONTROL + "\t");
 
-        driver.get("https://htmlcolorcodes.com");
-        driver.quit();
         String currentUrl = driver.getCurrentUrl();
-        Assert.assertEquals(currentUrl, "https://htmlcolorcodes.com");
+        driver.quit();
+        Assert.assertEquals(currentUrl, "https://htmlcolorcodes.com/");
     }
 
     @Test
