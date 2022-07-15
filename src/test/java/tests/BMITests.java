@@ -1,3 +1,5 @@
+package tests;
+
 import org.openqa.selenium.*;
 import org.openqa.selenium.safari.SafariDriver;
 //import org.open.selenium.NoSuchElementException;
