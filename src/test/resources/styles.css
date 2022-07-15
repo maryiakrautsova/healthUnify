@@ -1,0 +1,37 @@
+body {
+    background-image: url('pexels-amir-ghoorchiani-1183434.jpg');
+    background-repeat: round;
+}
+
+p {
+    font-family: verdana;
+    color: greenyellow;
+    font-size: 70px;
+    text-align: left;
+}
+
+.greetingsBlockStyle {
+    font-family: "Courier New";
+    color: green;
+    font-size: 40px;
+    text-align: center;
+}
+
+.nameStyle {
+    font-family: "Courier New";
+    color: mediumseagreen;
+    font-size: 40px;
+    text-align: center;
+}
+
+.button {
+    border: none;
+    color: forestgreen;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
