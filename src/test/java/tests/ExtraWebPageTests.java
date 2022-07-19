@@ -11,7 +11,7 @@ import utils.PropertyManager;
 
 import java.util.concurrent.TimeUnit;
 
-public class extraWebPageTests {
+public class ExtraWebPageTests {
     WebDriver driver;
 
     @BeforeMethod
